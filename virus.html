@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FREE ROBUX!1🤑🤑</title>
+</head>
+<body>
+    <h1>FREE DILDO</h1>
+    
+    <form name="myForm" onsubmit="return validateForm()" action="#"> 
+  Name: <input type="text" id="name" name="name"><br><br>
+  Address: <input type="text" id="number" name="number"><br><br>
+  <input type="submit" value="Submit">
+</form>
+    
+<style>
+    h1 {
+        color: green;
+    }
+    body {
+        background-color: #00ff18;
+    }
+    input {
+        background-color: #0a7523;
+        border: none;
+        color: black;
+    }
+</style>
+
+<script>
+    function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  let y = document.forms["myForm"]["number"].value;
+  if (x == "" || y == "") {
+    alert("Name and Number must be filled out");
+    return false;
+  } else {
+    alert("order placed");
+    alert('₱100 COD out for delivery to ' + y);
+    alert('Thank you for ordering ' + x);
+    window.location.href = "https://www.google.com";
+    clearForm(); 
+    return true;
+  }
+}
+
+function clearForm() {
+  document.getElementById("name").value = "";
+  document.getElementById("number").value = "";
+}
+</script>
+
+</body>
+</html>
